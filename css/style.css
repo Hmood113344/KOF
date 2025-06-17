@@ -74,3 +74,17 @@ header {
     margin: 10px;
     border-radius: 5px;
 }
+/* تنسيقات بطاقات الأعضاء */
+.member {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    border-right: 5px solid #FFA500;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 0 8px 8px 0;
+}
+
+.rank {
+    color: #245C36;
+    font-weight: bold;
+    font-size: 14px;
+}
