@@ -2,22 +2,85 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>أبطال القوة | KoF</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>أعضاء القوة العسكرية | KOF</title>
+    <style>
+        /* نفس تنسيقات صفحات القوانين وعن القائد */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #0a0a0a; /* خلفية سوداء */
+            color: #e4d8a6; /* نص كريمي */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to right, #000, #245C36);
+            color: #FFD700; /* ذهبي */
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #FFA500; /* برتقالي */
+        }
+        .saudi-logo {
+            font-size: 28px;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .member-card {
+            background: rgba(30, 30, 30, 0.8); /* رمادي غامق شفاف */
+            border-right: 4px solid #FFA500; /* برتقالي */
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .member-name {
+            color: #FFD700; /* ذهبي */
+            font-size: 20px;
+        }
+        .member-rank {
+            color: #FFA500; /* برتقالي */
+            font-weight: bold;
+        }
+        .back-btn {
+            display: block;
+            width: 120px;
+            margin: 30px auto;
+            text-align: center;
+            background: #245C36; /* أخضر عسكري */
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="saudi-logo">🌴⚔️</div>
-        <h1>الابطال</h1>
+        <h1>أعضاء القوة العسكرية</h1>
+        <p>مملكة أطلس | النخبة العسكرية</p>
     </header>
 
-<div class="member-card">
-        <div class="member-name">أبو أحمد</div>
-        <div class="member-rank">الحاكم</div>
-    </div>
-    <div class="member-card">
-        <div class="member-name">حمود</div>
-        <div class="member-rank">فريق ركن</div>
+    <div class="container">
+        <!-- القيادة العليا -->
+        <div class="member-card">
+            <div class="member-name">أبو أحمد</div>
+            <div class="member-rank">الحاكم الأعلى للمملكة</div>
+        </div>
+
+        <div class="member-card">
+            <div class="member-name">حمود</div>
+            <div class="member-rank">فريق ركن</div>
+        </div>
+
+        <!-- يمكنك إضافة المزيد من الأعضاء هنا -->
+
+        <a href="index.html" class="back-btn">العودة</a>
     </div>
 </body>
 </html>
