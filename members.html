@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <title>أعضاء القوة العسكرية | KOF</title>
     <style>
-        /* نفس تنسيقات صفحات القوانين وعن القائد */
         body {
             font-family: 'Arial', sans-serif;
-            background: #0a0a0a; /* خلفية سوداء */
-            color: #e4d8a6; /* نص كريمي */
+            background: #1A1919; /* اللون الأسود الداكن المطلوب */
+            color: #e4d8a6;
             margin: 0;
             padding: 0;
         }
         header {
             background: linear-gradient(to right, #000, #245C36);
-            color: #FFD700; /* ذهبي */
+            color: #FFD700;
             padding: 20px;
             text-align: center;
-            border-bottom: 3px solid #FFA500; /* برتقالي */
+            border-bottom: 3px solid #FFA500;
         }
         .saudi-logo {
             font-size: 28px;
@@ -31,18 +30,19 @@
             padding: 20px;
         }
         .member-card {
-            background: rgba(30, 30, 30, 0.8); /* رمادي غامق شفاف */
-            border-right: 4px solid #FFA500; /* برتقالي */
+            background: rgba(40, 40, 40, 0.9); /* أغمق قليلاً من الخلفية */
+            border-right: 4px solid #FFA500;
             padding: 15px;
             margin: 15px 0;
             border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
         }
         .member-name {
-            color: #FFD700; /* ذهبي */
+            color: #FFD700;
             font-size: 20px;
         }
         .member-rank {
-            color: #FFA500; /* برتقالي */
+            color: #FFA500;
             font-weight: bold;
         }
         .back-btn {
@@ -50,12 +50,17 @@
             width: 120px;
             margin: 30px auto;
             text-align: center;
-            background: #245C36; /* أخضر عسكري */
+            background: #245C36;
             color: white;
             padding: 10px;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
+            transition: all 0.3s;
+        }
+        .back-btn:hover {
+            background: #FFA500;
+            color: #000;
         }
     </style>
 </head>
@@ -75,10 +80,8 @@
 
         <div class="member-card">
             <div class="member-name">حمود</div>
-            <div class="member-rank">فريق ركن</div>
+            <div class="member-rank">فريق ركن - قائد قطاع الرفقاء</div>
         </div>
-
-        <!-- يمكنك إضافة المزيد من الأعضاء هنا -->
 
         <a href="index.html" class="back-btn">العودة</a>
     </div>
