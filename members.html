@@ -6,26 +6,31 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background: #f0f2f5;
+            background: #121212; /* خلفية سوداء */
+            color: #FFD700; /* نص ذهبي */
             padding: 20px;
         }
-        .member-card {
-            background: white;
-            border-right: 5px solid #FFA500;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 0 8px 8px 0;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .rank {
-            color: #245C36;
-            font-weight: bold;
-        }
         h1 {
-            color: #245C36;
+            color: #245C36; /* أخضر سعودي */
             text-align: center;
-            border-bottom: 2px solid #FFA500;
+            border-bottom: 2px solid #FFA500; /* برتقالي */
             padding-bottom: 10px;
+        }
+        .member-card {
+            background: #1E1E1E; /* رمادي غامق */
+            border-right: 5px solid #245C36; /* أخضر */
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .member-name {
+            color: #FFD700; /* ذهبي */
+            font-size: 20px;
+        }
+        .member-rank {
+            color: #FFA500; /* برتقالي */
+            font-weight: bold;
         }
         .back-btn {
             display: inline-block;
@@ -33,24 +38,27 @@
             color: #FFA500;
             text-decoration: none;
             font-weight: bold;
+            border: 1px solid #FFA500;
+            padding: 8px 15px;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
     <h1>أعضاء القوة العسكرية</h1>
 
-    <!-- الأعضاء والرتب -->
+    <!-- الأعضاء -->
     <div class="member-card">
-        <h3>ابو احمد</h3>
-        <p class="rank">الحاكم</p>
+        <div class="member-name">أبو أحمد</div>
+        <div class="member-rank">الحاكم</div>
     </div>
 
     <div class="member-card">
-        <h3>حمود</h3>
-        <p class="rank">فريق ركن</p>
+        <div class="member-name">حمود</div>
+        <div class="member-rank">فريق ركن</div>
     </div>
 
     <!-- زر العودة -->
-    <a href="index.html" class="back-btn">← العودة للصفحة الرئيسية</a>
+    <a href="index.html" class="back-btn">← العودة للرئيسية</a>
 </body>
 </html>
