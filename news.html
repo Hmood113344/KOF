@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>الأخبار الدولية | KOF</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #1A1919;
+            color: #e4d8a6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to right, #000, #245C36);
+            color: #FFD700;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #FFA500;
+        }
+        .news-logo {
+            font-size: 28px;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .news-card {
+            background: rgba(40, 40, 40, 0.9);
+            border-right: 4px solid #FFA500;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+        .news-title {
+            color: #FFD700;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .news-description {
+            color: #FFA500;
+            margin-top: 5px;
+        }
+        .back-btn {
+            display: block;
+            width: 120px;
+            margin: 30px auto;
+            text-align: center;
+            background: #245C36;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .back-btn:hover {
+            background: #FFA500;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="news-logo">📰🌐</div>
+        <h1>الأخبار الدولية</h1>
+        <p>أحدث الأخبار حول العالم</p>
+    </header>
+
+    <div class="container">
+        <!-- خبر 1 -->
+        <div class="news-card">
+            <div class="news-title">الأمم المتحدة تناقش الأزمات العالمية</div>
+            <div class="news-description">اجتمع مجلس الأمن لمناقشة التطورات الأخيرة في مناطق النزاع حول العالم.</div>
+        </div>
+
+        <!-- خبر 2 -->
+        <div class="news-card">
+            <div class="news-title">تطورات جديدة في الاقتصاد العالمي</div>
+            <div class="news-description">البنوك العالمية تعلن توقعات النمو للعام المقبل وسط تحديات اقتصادية كبيرة.</div>
+        </div>
+
+        <!-- زر العودة -->
+        <a href="index.html" class="back-btn">العودة</a>
+    </div>
+</body>
+</html>
