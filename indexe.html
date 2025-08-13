@@ -39,5 +39,21 @@
 </head>
 <body>
     <div class="maintenance-text">صيانة</div>
+    <!-- حقوق الموقع متحرك بالألوان -->
+<footer style="text-align: center; padding: 15px; font-size: 14px; font-weight: bold; margin-top: 30px; background: #000;">
+    <span id="animated-rights">&copy; 2025 TechnoBox. جميع الحقوق محفوظة.</span>
+</footer>
+
+<script>
+    const colors = ['#00FF00', '#0000FF', '#FFFF00', '#FF0000', '#FF00FF'];
+    const text = document.getElementById('animated-rights');
+    let colorIndex = 0;
+
+    setInterval(() => {
+        text.style.color = colors[colorIndex];
+        colorIndex++;
+        if(colorIndex >= colors.length) colorIndex = 0;
+    }, 500); // يغير اللون كل نصف ثانية
+</script>
 </body>
 </html>
